@@ -28,6 +28,9 @@ class MainActivity : AppCompatActivity() {
         var g7 = GameModel(R.drawable.card4, "Fortnite")
         var g8 = GameModel(R.drawable.card5, "PUBG Mobile")
         var g9 = GameModel(R.drawable.card6, "Battle grounds")
+        var g10 = GameModel(R.drawable.card1, "Need for Speed")
+        var g11 = GameModel(R.drawable.card2, "PES")
+        var g12 = GameModel(R.drawable.card3, "HillClimbing")
 
         //3 . add them to the data source
         gamesList.add(g1)
@@ -39,6 +42,9 @@ class MainActivity : AppCompatActivity() {
         gamesList.add(g7)
         gamesList.add(g8)
         gamesList.add(g9)
+        gamesList.add(g10)
+        gamesList.add(g11)
+        gamesList.add(g11)
 
 
         //4. adapter - connect to the data source
